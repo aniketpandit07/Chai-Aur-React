@@ -2,7 +2,7 @@
 import Chai from "./chai"
 import Button from "./Button"
 import Student from "./Student"
-
+import Food from "./Food"
 
 function App() {
   
@@ -16,6 +16,7 @@ function App() {
     <Student name="Abhi" age={34} isPass={false}/>
     <Student name="Shruti" age={18} isPass={true}/>
     <Student  />
+    <Food ></Food>
     </>
   )
 }
