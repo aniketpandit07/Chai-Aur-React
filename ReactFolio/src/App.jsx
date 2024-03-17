@@ -10,6 +10,7 @@ function App() {
     setText(event.target.value)
   }
 
+  //USE EFFECT HOOK
   //variation 1 -> every render
   // useEffect(() => {
   //   console.log("Ui rendered");
