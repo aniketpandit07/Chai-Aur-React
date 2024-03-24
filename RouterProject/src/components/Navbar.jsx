@@ -1,13 +1,14 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import toast from 'react-hot-toast'
+import Logo from "../asset/Logo.svg"
 
 const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
 
     return (
         <div className='flex justify-evenly'>
             <div>
-                <NavLink to="/"><img src="assets/Logo.svg" alt='fsdd' /></NavLink>
+                <NavLink to="/"><img src={Logo} alt='fsdd' /></NavLink>
             </div>
 
             <nav>

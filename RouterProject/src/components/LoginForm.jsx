@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai"
 import toast from 'react-hot-toast'
+import image from "../asset/login.png"
 
 const LoginForm = ({setIsLoggedIn}) => {
     const navigate = useNavigate()

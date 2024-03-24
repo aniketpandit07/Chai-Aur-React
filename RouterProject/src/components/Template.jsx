@@ -1,6 +1,8 @@
 import React from 'react'
 import LoginForm from './LoginForm'
 import SignupForm from './SignupForm'
+import frame from '../asset/frame.png'
+import image from '../asset/login.png'
 
 const Template = ({ title, desc1, desc2, image, formtype, setIsLoggedIn }) => {
     return (
@@ -32,11 +34,13 @@ const Template = ({ title, desc1, desc2, image, formtype, setIsLoggedIn }) => {
             </div>
 
             {/* images */}
-{/* 
+
             <div>
                 <img src={frame} alt='frame' width={558} height={504} loading='lazy' />
-                <img src={image} alt='studdent' width={558} height={504} loading='lazy' />
-            </div> */}
+                <img src={image} alt='student' width={558} height={504} loading='lazy' />
+            </div>
+
+
         </div>
     )
 }
