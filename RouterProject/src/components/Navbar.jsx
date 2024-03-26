@@ -6,13 +6,13 @@ import Logo from "../asset/Logo.svg"
 const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
 
     return (
-        <div className='flex justify-evenly'>
+        <div className='flex justify-between items-center w-11/12 max-w-[1160px] py-4 mx-auto'>
             <div>
                 <NavLink to="/"><img src={Logo} alt='fsdd' /></NavLink>
             </div>
 
             <nav>
-                <ul className='flex gap-5'>
+                <ul className='flex gap-5 text-white '>
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/" >About</NavLink></li>
                     <li><NavLink to="/" >Contact</NavLink></li>
@@ -22,15 +22,15 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
 
             {/* login - signup - logout - dashboard */}
 
-            <div className=' flex mr-3 ml-10 gap-4'>
+            <div className=' flex item-center gap-5  '>
                 {!isLoggedIn &&
                     <NavLink to="/login">
-                        <button>Login</button>
+                        <button className='bg-white text-black py-[8px] px-[12px] rounded-md border border-slate-500'>Login</button>
                     </NavLink>
                 }
                 {!isLoggedIn &&
                     <NavLink to="/signup">
-                        <button>Signup</button>
+                        <button className='bg-white text-black py-[8px] px-[12px] rounded-md border border-slate-500'>Signup</button>
                     </NavLink>
                 }
                 {isLoggedIn &&
@@ -38,12 +38,12 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
                         <button onClick={() => {
                             setIsLoggedIn(false)
                             toast.success("logged out")
-                        }}>Logout</button>
+                        }} className='bg-white text-black py-[8px] px-[12px] rounded-md border border-slate-500'>Logout</button>
                     </NavLink>
                 }
                 {isLoggedIn &&
                     <NavLink to="/dashboard">
-                        <button>Dashboard</button>
+                        <button className='bg-white text-black py-[8px] px-[12px] rounded-md border border-slate-500'>Dashboard</button>
                     </NavLink>
                 }
             </div>
