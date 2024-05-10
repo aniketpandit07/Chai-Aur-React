@@ -1,7 +1,10 @@
 # Learn react with me
 ### this repository contain react code and notes
 
+<<<<<<< HEAD
 <!-- bg changer-->
+=======
+>>>>>>> d63d030746f6f1ce8c5fc411cadfe0f40652655a
 #### React Learning Project01
 ## Background Colour Changer
 <img src="04BgChanger/public/Screenshots/Screenshot1.png" alt="bg changer screenshot" width="500px">
