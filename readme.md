@@ -1,44 +1,13 @@
 # Learn react with me
+### this repository contain react code and notes
 
-### This repository contains a collection of React.js projects that I have developed. Each project showcases different aspects of front-end development using React, from component-based architecture to state management, routing, and integration with APIs. The projects vary in complexity, allowing you to explore different skills and techniques.
-
----
-
-## Table of Contents
-
-1. [Project 1: Background Colour Changer](#project-1-background-colour-changer)
-2. [Project 2: Text Utility- Tweak Text](#project-2-text-utility-tweak-text)
-3. [Project 3: Top Courses](#project-3-top-courses)
-
----
-
-<!-- Top courses-->
-## Project 0: Counter App
-
-<img src="11TopCourse/public/Screenshots/Screenshot6.png" alt="bg changer screenshot" width="500px">
-
-<img src="11TopCourse/public/Screenshots/Screenshot7.png" alt="bg changer screenshot"  width="500px">
-
----
-
-
- <!-- bg changer-->
-## Project 1: Background Colour Changer
-
-### Description:
-This full-stack e-commerce application is built using React.js on the front end, with state management using React Context API. The app allows users to browse products, add them to the cart, and make a purchase. It integrates with a backend API to fetch product details and handles user authentication.
-
-### Features:
-- Product listing and filtering
-- Shopping cart functionality
-- User authentication (login/logout)
-- Responsive design
-
-### Technologies:
-- React.js
-
-### Screenshot:
-<img src="04BgChanger/public/Screenshots/Screenshot1.png" alt="bg changer screenshot" width="250">
+<<<<<<< HEAD
+<!-- bg changer-->
+=======
+>>>>>>> d63d030746f6f1ce8c5fc411cadfe0f40652655a
+#### React Learning Project01
+## Background Colour Changer
+<img src="04BgChanger/public/Screenshots/Screenshot1.png" alt="bg changer screenshot" width="500px">
 
 <img src="04BgChanger/public/Screenshots/Screenshot2.png" alt="bg changer screenshot"  width="250">
 
